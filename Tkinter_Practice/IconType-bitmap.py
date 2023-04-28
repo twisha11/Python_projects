@@ -1,0 +1,31 @@
+from tkinter import *
+import tkinter
+
+top = Tk()
+
+B1 = Button(top, text = "error", relief = RAISED, bitmap = "error")
+B2 = Button(top, text = "hourglass", relief = RAISED,bitmap = "hourglass")
+B3 = Button(top, text = "info", relief = RAISED,bitmap = "info")
+B4 = Button(top, text = "question", relief = RAISED,bitmap = "question")
+B5 = Button(top, text = "warning", relief = RAISED, bitmap= "warning")
+B6 = Button(top, text = "warning", relief = RAISED, bitmap= "questhead")
+B7 = Button(top, text = "warning", relief = RAISED, bitmap= "gray12")
+B8 = Button(top, text = "warning", relief = RAISED, bitmap= "gray75")
+B9 = Button(top, text = "warning", relief = RAISED, bitmap= "gray50")
+B10 = Button(top, text = "warning", relief = RAISED, bitmap= "gray25")
+B8.pack()
+B9.pack()
+B10.pack()
+B6.pack()
+B7.pack()
+B1.pack()
+B2.pack()
+B3.pack()
+B4.pack()
+B5.pack()
+
+B11 = Button(top, text = "circle", relief = RAISED,cursor = "circle")
+B12 = Button(top, text = "plus", relief = RAISED,cursor = "heart")
+B11.pack()
+B12.pack()
+top.mainloop()
